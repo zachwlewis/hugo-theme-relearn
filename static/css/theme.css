@@ -428,9 +428,11 @@ mark {
 }
 
 h1 {
-    font-weight: 600;
-    text-align: center;
+    font-weight: 500;
     /* text-transform: uppercase; */
+}
+.chapter h1 {
+    text-align: center;
 }
 
 h2,

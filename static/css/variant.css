@@ -382,7 +382,11 @@ h2 {
     font-family: var(--INTERNAL-MAIN-TITLES-H2-font);
 }
 
-h3,
+h3 {
+    color: var(--INTERNAL-MAIN-TITLES-H3-color);
+    font-family: var(--INTERNAL-MAIN-TITLES-H3-font);
+}
+
 .article-subheading {
     color: var(--INTERNAL-MAIN-TITLES-H3-color);
     font-family: "IBM Plex Mono", var(--INTERNAL-MAIN-TITLES-H3-font);
