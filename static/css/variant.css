@@ -301,6 +301,12 @@ a,
     color: var(--INTERNAL-MAIN-LINK-color);
 }
 
+/* Show external icon on decimaed links. */
+a[href*="decimaed"] {
+    background: url(/images/go_to.svg) no-repeat right top;
+    padding-right: 18px;
+}
+
 a:hover,
 .anchor:hover,
 #toc-menu:hover,
@@ -490,9 +496,13 @@ samp {
 }
 
 code {
-    background-color: var(--INTERNAL-CODE-INLINE-BG-color);
-    border-color: var(--INTERNAL-CODE-INLINE-BORDER-color);
+    /* background-color: var(--INTERNAL-CODE-INLINE-BG-color); */
+    /* border-color: var(--INTERNAL-CODE-INLINE-BORDER-color); */
     color: var(--INTERNAL-CODE-INLINE-color);
+}
+
+a code {
+    color: var(--INTERNAL-MAIN-LINK-color);
 }
 
 pre {

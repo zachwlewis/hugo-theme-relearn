@@ -570,9 +570,9 @@ samp {
 }
 
 code {
-    border-radius: 2px;
-    border-style: solid;
-    border-width: 1px;
+    border-radius: 0;
+    border-style: none;
+    border-width: 0;
     -webkit-print-color-adjust: economy;
     color-adjust: economy;
     padding-left: 2px;
