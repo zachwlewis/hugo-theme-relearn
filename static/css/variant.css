@@ -303,7 +303,7 @@ a,
 
 /* Show external icon on decimaed links. */
 a[href*="decimaed"] {
-    background: url(/images/go_to.svg) no-repeat right top;
+    background: url(../images/go_to.svg) no-repeat right top;
     padding-right: 18px;
 }
 
