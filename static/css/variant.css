@@ -496,8 +496,8 @@ samp {
 }
 
 code {
-    /* background-color: var(--INTERNAL-CODE-INLINE-BG-color); */
-    /* border-color: var(--INTERNAL-CODE-INLINE-BORDER-color); */
+    background-color: var(--INTERNAL-CODE-INLINE-BG-color);
+    border-color: var(--INTERNAL-CODE-INLINE-BORDER-color);
     color: var(--INTERNAL-CODE-INLINE-color);
 }
 
